@@ -15,6 +15,8 @@ public:
                 if(arr[i] - arr[i - 1] == minDiff)
 
                 result.push_back({arr[i - 1] , arr[i]});
+
+            
                 return result;
     }
 };
